@@ -3,7 +3,7 @@ init -990 python in mas_submod_utils:
         author="MrPhaze",
         name="Twitter Button",
         description="Opens up moni twiiter page!",
-        version="0.0.2",
+        version="0.0.3",
         dependencies={},
         settings_pane=None,
         version_updates={}
@@ -27,7 +27,7 @@ init python:
     import webbrowser
 
 label monika_opentwitter:
-    m 1eud "Oh, you want to my Twitter page?"
+    m 1eud "Oh, you want to see my Twitter page?"
     m 4wub "Let me open it for you!"
     jump Moni_Twitsite
     
